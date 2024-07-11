@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
@@ -118,158 +119,201 @@
   </section>
 
   <section id="recent-work">
-    <h2>Наші Проєкти</h2>
-    <img src="images/line white.svg" alt="white line">
-    <ul>
-      <li>
-        <img src="images/Portfolio-1.svg" alt="Lalique Boutique Portfolio">
-        <div>
+    <h2 id="recent-work-title">Наші Проєкти</h2>
+    <img id="recent-work-line" src="images/line white.svg" alt="white line">
+    <ul class="unordered-list recent-work-list">
+      <li class="recent-work-list-item">
+        <img src="images/Portfolio-1.svg" alt="Lalique Boutique Portfolio" width="268" height="239">
+        <div class="recent-work-mask">
           <button class="work-info-btn">
-            <img src="images/info button.svg" alt="Btn show info">
+            <img class="work-btn-img"  src="images/info button.svg" alt="Btn show info">
           </button>
           <button class="work-search-btn">
-            <img src="images/search.svg" alt="Btn search">
+            <img class="work-btn-img"  src="images/search.svg" alt="Btn search">
           </button>
         </div>
-        <p>Lalique бутик</p>
+        <p class="recent-work-name">Lalique бутик</p>
       </li>
-      <li>
-        <img src="images/Portfolio-2.svg" alt="Home Construction Portfolio">
-        <div>
+      <li class="recent-work-list-item">
+        <img src="images/Portfolio-2.svg" alt="Home Construction Portfolio" width="268" height="239">
+        <div class="recent-work-mask">
           <button class="work-info-btn">
-            <img src="images/info button.svg" alt="Btn show info">
+            <img class="work-btn-img"  src="images/info button.svg" alt="Btn show info">
           </button>
           <button class="work-search-btn">
-            <img src="images/search.svg" alt="Btn search">
+            <img class="work-btn-img"  src="images/search.svg" alt="Btn search">
           </button>
         </div>
-        <p>Будівництво домів</p>
+        <p class="recent-work-name">Будівництво домів</p>
       </li>
-      <li>
-        <img src="images/Portfolio-3.svg" alt="Café Portfolio">
-        <div>
+      <li class="recent-work-list-item">
+        <img src="images/Portfolio-3.svg" alt="Café Portfolio" width="268" height="239">
+        <div class="recent-work-mask">
           <button class="work-info-btn">
-            <img src="images/info button.svg" alt="Btn show info">
+            <img class="work-btn-img"  src="images/info button.svg" alt="Btn show info">
           </button>
           <button class="work-search-btn">
-            <img src="images/search.svg" alt="Btn search">
+            <img class="work-btn-img"  src="images/search.svg" alt="Btn search">
           </button>
         </div>
-        <p>Кавʼярня</p>
+        <p class="recent-work-name">Кавʼярня</p>
       </li>
-      <li>
-        <img src="images/Portfolio-4.svg" alt="Unique Tours Portfolio">
-        <div>
+      <li class="recent-work-list-item">
+        <img src="images/Portfolio-4.svg" alt="Unique Tours Portfolio" width="268" height="239">
+        <div class="recent-work-mask">
           <button class="work-info-btn">
-            <img src="images/info button.svg" alt="Btn show info">
+            <img class="work-btn-img"  src="images/info button.svg" alt="Btn show info">
           </button>
           <button class="work-search-btn">
-            <img src="images/search.svg" alt="Btn search">
+            <img class="work-btn-img"  src="images/search.svg" alt="Btn search">
           </button>
         </div>
-        <p>Унікальні тури</p>
+        <p class="recent-work-name">Унікальні тури</p>
       </li>
     </ul>
   </section>
 
   <section id="video-block">
-    <h2>Команда</h2>
-    <img src="images/line blue.svg" alt="blue line">
-    <p>Наша команда — це наша найбільша цінність. Ми наполегливо працювали, щоб створити групу експертів, чиї навички доповнюють один одного. У членів нашої команди різні історії, але ми розділяємо загальну пристрасть до ідеалу. Ми віримо, щоб залишатись професіоналом, потрібно розвиватись, тому ми постійно шукаємо способи, як стати краще в тому, що ми робимо.</p>
-    <button>ДИВИТИСЬ ВІДЕО</button>
+    <img id="video-block-img" src="images/video.svg" alt="" width="460" height="420">
+    <div id="video-block-container">
+      <h2 id="video-block-title">Команда</h2>
+      <img id="video-block-line" src="images/line blue.svg" alt="blue line">
+      <p id="video-block-text">Наша команда — це наша найбільша цінність. Ми наполегливо працювали, щоб створити групу експертів, чиї навички доповнюють один одного. У членів нашої команди різні історії, але ми розділяємо загальну пристрасть до ідеалу. Ми віримо, щоб залишатись професіоналом, потрібно розвиватись, тому ми постійно шукаємо способи, як стати краще в тому, що ми робимо.</p>
+      <button id="video-block-btn">ДИВИТИСЬ ВІДЕО</button>
+    </div>
+
   </section>
 
   <section id="latest-news">
-    <h2>Останні Новини</h2>
-    <img src="" alt="">
-    <ul>
-      <li>
-        <img src="images/news-1.svg" alt="3D in Branding news">
-        <img src="images/info button white.svg" alt="Btn show info">
-        <p>3Д в брендингу</p>
+    <h2 id="latest-news-title">Останні Новини</h2>
+    <img id="latest-news-line" src="images/line blue.svg" alt="blue line" width="100" height="8">
+    <ul id="news-list" class="unordered-list">
+      <li class="news-list-item">
+        <img class="news-list-item-img" src="images/news-1.svg" alt="3D in Branding news" width="268" height="444">
+        <img class="show-info-news" src="images/info button white.svg" alt="Btn show info" width="28" height="28">
+        <p id="news-list-item-text">3Д в брендингу</p>
       </li>
-      <li>
-        <img src="images/news-2.svg" alt="Contextual Advertising News">
-        <img src="images/info button white.svg" alt="Btn show info">
-        <p>Контекстна реклама</p>
+      <li class="news-list-item">
+        <img class="news-list-item-img" src="images/news-2.svg" alt="Contextual Advertising News" width="268" height="341">
+        <img class="show-info-news" src="images/info button white.svg" alt="Btn show info" width="28" height="28">
+        <p id="news-list-item-text">Контекстна реклама</p>
       </li>
-      <li>
-        <img src="images/news-3.svg" alt="Graphics News">
-        <img src="images/info button white.svg" alt="Btn show info">
-        <p>Графіка</p>
+      <li class="news-list-item">
+        <img class="news-list-item-img" src="images/news-3.svg" alt="Graphics News" width="268" height="383">
+        <img class="show-info-news" src="images/info button white.svg" alt="Btn show info" width="28" height="28">
+        <p id="news-list-item-text">Графіка</p>
       </li>
-      <li>
-        <img src="images/news-4.svg" alt="Corporate Culture News">
-        <img src="images/info button white.svg" alt="Btn show info">
-        <p>Корпоративна культура</p>
+      <li class="news-list-item">
+        <img class="news-list-item-img" src="images/news-4.svg" alt="Corporate Culture News" width="268" height="210">
+        <img class="show-info-news" src="images/info button white.svg" alt="Btn show info" width="28" height="28">
+        <p id="news-list-item-text">Корпоративна культура</p>
       </li>
-      <li>
-        <img src="images/news-5.svg" alt="Unique Design News">
-        <img src="images/info button white.svg" alt="Btn show info">
-        <p>Унікальний дизайн</p>
+      <li class="news-list-item">
+        <img class="news-list-item-img" src="images/news-5.svg" alt="Unique Design News" width="268" height="167">
+        <img class="show-info-news" src="images/info button white.svg" alt="Btn show info" width="28" height="28">
+        <p id="news-list-item-text">Унікальний дизайн</p>
       </li>
-      <li>
-        <img src="images/news-6.svg" alt="Perspective News">
-        <img src="images/info button white.svg" alt="Btn show info">
-        <p>Погляд зі сторони</p>
+      <li class="news-list-item">
+        <img class="news-list-item-img" src="images/news-6.svg" alt="Perspective News" width="268" height="341">
+        <img class="show-info-news" src="images/info button white.svg" alt="Btn show info" width="28" height="28">
+        <p id="news-list-item-text">Погляд зі сторони</p>
       </li>
-      <li>
-        <img src="images/news-7.svg" alt="Social Media and Their Benefits News">
-        <img src="images/info button white.svg" alt="Btn show info">
-        <p>Соц мережі та їх користь</p>
+      <li class="news-list-item">
+        <img class="news-list-item-img" src="images/news-7.svg" alt="Social Media and Their Benefits News" width="268" height="198">
+        <img class="show-info-news" src="images/info button white.svg" alt="Btn show info" width="28" height="28">
+        <p id="news-list-item-text">Соц мережі та їх користь</p>
       </li>
-      <li>
-        <img src="images/news-8.svg" alt="Exclusivity News">
-        <img src="images/info button white.svg" alt="Btn show info">
-        <p>Ексклюзивність</p>
+      <li class="news-list-item">
+        <img class="news-list-item-img" src="images/news-8.svg" alt="Exclusivity News"  width="268" height="436">
+        <img class="show-info-news" src="images/info button white.svg" alt="Btn show info" width="28" height="28">
+        <p id="news-list-item-text">Ексклюзивність</p>
       </li>
     </ul>
   </section>
 
   <section id="testimonial">
-    <p>"</p>
-    <p>Якщо треба створити або підняти імідж компанії, то діджитал-маркетинг є найбільш влучним</p>
-    <p>- Маргарита Акулич</p>
-    <ul class="testimonial-pagination">
+    <img class="testimonial-quotes" src="images/quotes.svg" alt="quotes" width="32" height="14">
+    <p class="review">Якщо треба створити або підняти імідж компанії, <br>то <span class="bold-text-review">діджитал-маркетинг</span> є найбільш влучним</p>
+    <p class="author-review">- Маргарита Акулич</p>
+    <ul class="testimonial-pagination unordered-list">
       <li class="testimonial-pagination-dot"></li>
-      <li class="testimonial-pagination-dot"></li>
+      <li class="testimonial-pagination-dot active-dot"></li>
       <li class="testimonial-pagination-dot"></li>
     </ul>
   </section>
 
   <footer>
-    <a href="#"><img src="images/Logo.svg" alt="Logo DI GI"></a>
-    <p>Ми хотіли б почути все про ваш проєкт. <br>Звʼяжіться з нами!</p>
-    <ul id="social-media-icons-list">
-      <li><a href=""><img src="images/facebook.svg" alt="Facebook icon"></a></li>
-      <li><a href=""><img src="images/GooglePlus.svg" alt="Google Plus icon"></a></li>
-      <li><a href=""><img src="images/Twitter.svg" alt="Twitter icon"></a></li>
-      <li><a href=""><img src="images/Pinterest.svg" alt="Pinterest icon"></a></li>
-    </ul>
-
-    <h2>КОНТАКТИ</h2>
-    <ul>
-      <li><a href="tel:+380 555 55 66">+380 555 55 66</a></li>
-      <li><a href="mailto:digi@gmail.com"></a>digi@gmail.com</li>
-    </ul>
-
-    <h2>АДРЕСА</h2>
-    <p>Пр. Науки 107 <br>Kиїв / Україна</p>
+    <div id="footer-logo-container">
+      <a id="footer-logo" href="#"><img src="images/Logo.svg" alt="Logo DI GI" width="83" height="55"></a>
+    </div>
     
-
-    <h3>ДОПОМОГА</h3>
-    <ul>
-      <li><a href="#">Як з нами звʼязатись?</a></li>
-      <li><a href="#">Що таке діджитал?</a></li>
-      <li><a href="#">Вартість послуг</a></li>
+    <p id="footer-text">Ми хотіли б почути все про ваш проєкт. <br>Звʼяжіться з нами!</p>
+    <ul class="unordered-list" id="social-media-icons-list">
+      <li class="media-list-items"><a class="media-links" href="">
+        <img src="images/facebook.svg" alt="Facebook icon" width="12" height="14">
+      </a></li>
+      <li class="media-list-items"><a class="media-links" href="">
+        <img src="images/GooglePlus.svg" alt="Google Plus icon" width="26" height="14">
+      </a></li>
+      <li class="media-list-items"><a class="media-links" href="">
+        <img src="images/Twitter.svg" alt="Twitter icon" width="19" height="14">
+      </a></li>
+      <li class="media-list-items"><a class="media-links" href="">
+        <img src="images/Pinterest.svg" alt="Pinterest icon" width="18" height="14">
+      </a></li>
     </ul>
-    
-    <h3>МЕНЮ</h3>
-    <ul>
-      <li><a href="#">Наші проєкти</a></li>
-      <li><a href="#">Команда</a></li>
-      <li><a href="#">Блог</a></li>
-    </ul>  
+
+    <div class="widgets">
+      <div class="contacts-container">
+        <h2 class="footer-titles">КОНТАКТИ</h2>
+        <ul class="footer-list unordered-list">
+          <li class="footer-list-item">
+            <a class="footer-links" href="tel:+380 555 55 66">+380 555 55 66</a>
+          </li>
+          <li class="footer-list-item">
+            <a class="footer-links" href="mailto:digi@gmail.com">digi@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="adress-container">
+        <h2 class="footer-titles">АДРЕСА</h2>
+        <p class="footer-adress">Пр. Науки 107 <br>Kиїв / Україна</p>         
+      </div>
+
+      <div class="help-container">
+        <h3 class="footer-titles">ДОПОМОГА</h3>
+        <ul class="footer-list unordered-list">
+          <li class="footer-list-item">
+            <a class="footer-links" href="#">Як з нами звʼязатись?</a>
+          </li>
+          <li class="footer-list-item">
+            <a class="footer-links" href="#">Що таке діджитал?</a>
+          </li>
+          <li class="footer-list-item">
+            <a class="footer-links" href="#">Вартість послуг</a>
+          </li>
+        </ul>         
+      </div>
+
+      <div class="menu-container">
+        <h3 class="footer-titles">МЕНЮ</h3>
+        <ul class="footer-list unordered-list">
+          <li class="footer-list-item">
+            <a class="footer-links" href="#">Наші проєкти</a>
+          </li>
+          <li class="footer-list-item">
+            <a class="footer-links" href="#">Команда</a>
+          </li>
+          <li class="footer-list-item">
+            <a class="footer-links" href="#">Блог</a>
+          </li>
+        </ul>          
+      </div>
+
+
+    </div>
+
     
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
