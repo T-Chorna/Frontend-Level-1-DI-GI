@@ -576,7 +576,7 @@ body{
   box-sizing: border-box;
   width: 286px;
   position: relative;
-  border: 10px solid transparent;
+  border: 10px solid var(--white-background);
   color: var(--dark-blue);
   cursor: pointer;
   background-color: var(--white);
